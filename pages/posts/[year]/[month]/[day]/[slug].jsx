@@ -1,9 +1,9 @@
 import { NextSeo } from "next-seo";
-import Layout from "../../components/layout";
-import Post from "../../components/post";
+import Layout from "../../../../../components/layout";
+import Post from "../../../../../components/post";
 
-import { getFooterMenu } from "../../lib/Menus";
-import { getPostBySlug } from "../../lib/Posts";
+import { getFooterMenu } from "../../../../../lib/Menus";
+import { getPostBySlug } from "../../../../../lib/Posts";
 
 export default function PostListTemplate({ menuItems, post }) {
   return (
